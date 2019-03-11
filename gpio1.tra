@@ -1,0 +1,24 @@
+*** Creating Trace Output File 'gpio1.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"gpio1.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"serial.o"'
+### List of Objects: adding '"retarget.o"'
+### List of Objects: adding '"spi.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "gpio1.o" "system_lpc17xx.o" "serial.o" "retarget.o" "spi.o" --strict --scatter "gpio1.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\gpio1.map" -o "gpio1.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'gpio1.axf'
+### ADS-LD Command File: 'gpio1.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'gpio1.lnp', Handle=0x00000718
+### Writing '.lnp' file
+### ADS-LD Command file 'gpio1.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
