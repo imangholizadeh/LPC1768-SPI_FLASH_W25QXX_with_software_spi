@@ -4,10 +4,10 @@ I use LPC1768 and Keil Compiler.
 
 ARM SPI Configuration
 ------------------------
-1) P0.15  -->   SCK
-2) p0.16  -->   CS
-3) p0.17  -->   MISO
-4) p0.18  -->   MOSI
+1) P0.7  -->   SCK
+2) p0.6  -->   CS
+3) p0.8  -->   MISO
+4) p0.9  -->   MOSI
 
 ARM Serial Configuration
 ------------------------
